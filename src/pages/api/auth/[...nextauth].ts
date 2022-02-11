@@ -27,7 +27,7 @@ export default NextAuth({
                         q.Not(
                             q.Exists(
                                 q.Match(
-                                    q.Index('use_by_email'),
+                                    q.Index('user_by_email'),
                                     q.Casefold(userEmail)
                                 )
                             )
@@ -38,7 +38,7 @@ export default NextAuth({
                         ),
                         q.Get(
                             q.Match(
-                                q.Index('use_by_email'),
+                                q.Index('user_by_email'),
                                 q.Casefold(userEmail)
                             )
                         )
