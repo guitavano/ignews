@@ -46,3 +46,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 <a href="#top">Voltar para o topo</a>
+
+
+// stripe.exe
+// stripe listen --forward-to localhost:3000/api/webhooks
