@@ -11,7 +11,7 @@ export function Header() {
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <a href="/">
+                <a>
                     <img src="/images/logo.svg" alt="Logo Ig News" />
                 </a>
                 <nav>
